@@ -1,0 +1,47 @@
+{
+  "users": [],
+  "posts": [
+    {
+      "id": "1",
+      "name": "Post A",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Post B",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Post C",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Post D",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Post E",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Post F",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Post G",
+      "content": "abc",
+      "image": "https://picsum.photos/200/300.jpg"
+    }
+  ]
+}
