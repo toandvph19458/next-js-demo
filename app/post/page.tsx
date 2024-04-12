@@ -12,8 +12,11 @@ export default async function Post() {
         {post.map((item: any) => {
           return (
             <Link href={"/post/" + item.id} key={item.id}>
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img className="w-full" src={item.image} />
+              <div className="max-w-sm  overflow-hidden shadow-sm rounded-lg hover:shadow-lg">
+                <img
+                  className="w-full object-cover h-[200px]"
+                  src={item.image}
+                />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{item.name}</div>
                   <p className="text-gray-700 text-base">{item.content}</p>
