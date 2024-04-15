@@ -4,7 +4,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: "Googlebot",
+        userAgent: "*",
         allow: ["/"],
         disallow: "/private/",
       },
@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/"],
       },
     ],
-    sitemap: "https://acme.com/sitemap.xml",
+    sitemap: "http://localhost:8080/sitemap.xml",
   };
 }
