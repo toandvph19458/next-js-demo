@@ -11,7 +11,7 @@ const Header = (props: Props) => {
     setShow(!show);
   };
   return (
-    <header className=" bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white sticky top-0">
+    <header className=" bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white sticky top-0 z-50">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
